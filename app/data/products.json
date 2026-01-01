@@ -1,0 +1,16 @@
+[
+  {
+    "id":1,
+    "name": "EWA Herbal Scalp Oil",
+    "description": "Scalp Nourishment & Growth Care",
+    "benefits": [
+      "Nourishes and supports a healthy scalp",
+      "Helps reduce dryness and flaking",
+      "Supports hair growth and retention",
+      "Seals in moisture without heavy buildup",
+      "Ideal for scalp massages and protective styles"
+    ],
+    "imgPath": "/images/placeholder.png",
+    "price": 18.0
+  }
+]
