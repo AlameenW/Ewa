@@ -11,7 +11,7 @@ export const ProductsPreview = () => {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-foreground mb-4">
             Featured Products
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-wine-primary to-cocoa-primary mx-auto rounded-full"></div>
+          <div className="w-77 h-1 bg-linear-to-r from-wine-primary to-cocoa-primary mx-auto rounded-full"></div>
         </div>
 
         {/* Product Card */}
@@ -69,7 +69,7 @@ export const ProductsPreview = () => {
 
                 {/* Call to Action Button */}
                 <Link href="/products">
-                  <button className="bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-700 hover:to-amber-600 text-white font-bold py-4 px-8 md:py-5 md:px-12 rounded-full text-lg md:text-xl shadow-2xl transform hover:scale-105 transition-all duration-300 ease-out hover:shadow-amber-500/30 w-full lg:w-auto">
+                  <button className="bg-linear-to-r from-amber-600 to-amber-500 hover:from-amber-700 hover:to-amber-600 text-white font-bold py-4 px-8 md:py-5 md:px-12 rounded-full text-lg md:text-xl shadow-2xl transform hover:scale-105 transition-all duration-300 ease-out hover:shadow-amber-500/30 w-full lg:w-auto">
                     View All Products
                   </button>
                 </Link>

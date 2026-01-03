@@ -7,14 +7,14 @@ return (
   <div className="flex flex-col lg:flex-row items-start">
     {/* About Image */}
     <div className="w-full lg:w-1/2 p-8 lg:p-12 flex items-center justify-center">
-      <img src="/images/ewa2.png" alt="About EWA" width={600} height={400} className="w-full h-auto max-w-[600px] rounded-lg shadow-lg" />
+      <img src="/images/ewa2.png" alt="About EWA" width={600} height={400} className="w-full h-auto max-w-150 rounded-lg shadow-lg" />
     </div>
     <div className="w-full lg:w-1/2 p-8 lg:p-12">
       <div className="flex flex-col items-center lg:items-start mb-4">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold">
           About EWA
         </h2>
-        <div className="w-68 h-1 bg-gradient-to-r from-wine-primary to-cocoa-primary rounded-full mt-2"></div>
+        <div className="w-68 h-1 bg-linear-to-r from-wine-primary to-cocoa-primary rounded-full mt-2"></div>
       </div>
       <p className="text-base text-gray-300 mb-4">
         EWA was created from a personal journey toward healthier hair and a simple truth: the right products make all the difference. After realizing that many hair products promise results without truly nourishing the hair, the focus became clear—intentional care that actually works.
