@@ -1,13 +1,13 @@
-'use client'
+"use client";
 import Image from "next/image";
 
 const IntroSection = () => {
-    const scrollProducts = () => {
-      const products = document.getElementById("products");
-      products?.scrollIntoView({
-        behavior: "smooth",
-      });
-    };
+  const scrollProducts = () => {
+    const products = document.getElementById("products");
+    products?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
   return (
     <div className="w-full font-sans" id="intro">
       <div className="relative w-full h-[70vh] md:h-[75vh] lg:h-[80vh]">
@@ -18,6 +18,7 @@ const IntroSection = () => {
           fill
           className="object-cover"
           priority
+          quality={90}
         />
 
         {/* Lighter overlay for dark theme */}
@@ -40,9 +41,10 @@ const IntroSection = () => {
             </p>
 
             {/* Call to Action Button */}
-            <button 
-            onClick = {scrollProducts}
-            className="bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-700 hover:to-amber-600 text-white font-bold py-4 px-8 md:py-5 md:px-12 rounded-full text-lg md:text-xl shadow-2xl transform hover:scale-105 transition-all duration-300 ease-out hover:shadow-amber-500/30">
+            <button
+              onClick={scrollProducts}
+              className="bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-700 hover:to-amber-600 text-white font-bold py-4 px-8 md:py-5 md:px-12 rounded-full text-lg md:text-xl shadow-2xl transform hover:scale-105 transition-all duration-300 ease-out hover:shadow-amber-500/30"
+            >
               Shop EWA
             </button>
           </div>

@@ -25,6 +25,8 @@ export const ProductsPreview = () => {
                   alt={products[0].name}
                   fill
                   className="object-cover rounded-xl shadow-lg"
+                  quality={85}
+                  loading="lazy"
                 />
               </div>
             </div>

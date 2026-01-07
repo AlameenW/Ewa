@@ -86,12 +86,13 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link
+                <a
                   href="https://forms.office.com/pages/responsepage.aspx?id=9dvUMQRAaUS_7t8pSp3hUNJPcrhO8cBJpbtxvWfWJhZUN1dXTUUxUVU5NEVZTUs2SllSTTZMMFczRy4u&route=shorturl"
+                  target="blank"
                   className="text-gray-300 hover:text-wine-hover transition-colors"
                 >
                   Order Form
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

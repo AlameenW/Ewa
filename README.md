@@ -2,7 +2,7 @@
 
 A modern, responsive website for EWA, a natural haircare brand focused on thoughtfully crafted products to nourish and protect your crown.
 
-Link to deployed website: 
+Link to deployed website [here](https://ewa-umber.vercel.app/)
 
 ## Features
 

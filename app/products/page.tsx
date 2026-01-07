@@ -36,6 +36,7 @@ const Page = () => {
                       alt={product.name}
                       fill
                       className="object-cover rounded-xl shadow-lg"
+                      quality={85}
                     />
                   </div>
                 </div>

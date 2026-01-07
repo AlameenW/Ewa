@@ -22,7 +22,7 @@ const PageHeader = () => {
   };
   return (
     <header
-      className="bg-background border-b border-gray-700 shadow-lg fixed top-0 left-0 w-full z-50"
+      className="bg-background border-b border-gray-700 shadow-lg fixed top-0 left-0 w-full z-50 h-20"
       id="header"
     >
       <div className="flex justify-between items-center px-6 py-4">
