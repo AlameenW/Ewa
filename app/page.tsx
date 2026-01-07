@@ -8,10 +8,8 @@ export default function Home() {
     <div className="font-sans">
       <IntroSection></IntroSection>
       <AboutSection></AboutSection>
-      <OrderSection></OrderSection>
       <ProductsPreview></ProductsPreview>
-
-
+      <OrderSection></OrderSection>
     </div>
   );
 }

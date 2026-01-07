@@ -1,6 +1,6 @@
 const PageHeader = () => {
   return (
-    <header className="bg-background border-b border-gray-700 shadow-lg">
+    <header className="bg-background border-b border-gray-700 shadow-lg" id="header">
       <div className="flex justify-between items-center px-6 py-4">
         <h1 className="font-sans font-bold text-4xl text-wine-primary hover:text-wine-hover transition-colors cursor-pointer">
           EWA

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const ProductsPreview = () => {
   return (
-    <section className="font-sans py-16 px-6 bg-background">
+    <section className="font-sans py-16 px-6 bg-background" id="products">
       <div className="max-w-6xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-12">

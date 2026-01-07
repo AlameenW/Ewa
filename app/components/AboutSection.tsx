@@ -3,7 +3,7 @@ import Link from "next/link";
 const AboutSection = () => {
 
 return (
-  <div className="bg-dark-card  shadow-2xl overflow-hidden border border-gray-700">
+  <div className="bg-dark-card  shadow-2xl overflow-hidden border border-gray-700" id="about">
   <div className="flex flex-col lg:flex-row items-start">
     {/* About Image */}
     <div className="w-full lg:w-1/2 p-8 lg:p-12 flex items-center justify-center">
