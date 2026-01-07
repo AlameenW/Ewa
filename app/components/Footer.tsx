@@ -1,36 +1,19 @@
 "use client";
-import React from "react";
 import Link from "next/link";
-
 const Footer = () => {
-  const scrollHome = () => {
-    const header = document.getElementById("header");
-    header?.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
-  const scrollAbout = () => {
-    const about = document.getElementById("about");
-    about?.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
-  const scrollProducts = () => {
-    const products = document.getElementById("products");
-    products?.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
   return (
-    <footer className="bg-background border-t border-gray-800">
+    <footer className="bg-background border-t border-gray-800" id="footer">
       <div className="max-w-6xl mx-auto px-6 py-16">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Brand Section */}
           <div className="lg:col-span-2">
-            <h2 className="font-sans font-bold text-3xl text-wine-primary hover:text-wine-hover transition-colors cursor-pointer mb-4">
+            <Link
+              href="/"
+              className="font-sans font-bold text-3xl text-wine-primary hover:text-wine-hover transition-colors cursor-pointer mb-4"
+            >
               EWA
-            </h2>
+            </Link>
 
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
               Natural haircare products rooted in intention and care.
@@ -79,28 +62,28 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3">
               <li>
-                <div
-                  onClick={scrollHome}
+                <Link
+                  href="/"
                   className="text-gray-300 hover:text-wine-hover transition-colors"
                 >
                   Home
-                </div>
+                </Link>
               </li>
               <li>
-                <div
-                  onClick={scrollAbout}
+                <Link
+                  href="/about"
                   className="text-gray-300 hover:text-wine-hover transition-colors"
                 >
                   About
-                </div>
+                </Link>
               </li>
               <li>
-                <div
-                  onClick={scrollProducts}
+                <Link
+                  href="products"
                   className="text-gray-300 hover:text-wine-hover transition-colors"
                 >
                   Products
-                </div>
+                </Link>
               </li>
               <li>
                 <Link

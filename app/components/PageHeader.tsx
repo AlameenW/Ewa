@@ -1,22 +1,48 @@
+"use client";
+import Link from "next/link";
 const PageHeader = () => {
+  const scrollContact = () => {
+    const footer = document.getElementById("footer");
+    footer?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
   return (
-    <header className="bg-background border-b border-gray-700 shadow-lg" id="header">
+    <header
+      className="bg-background border-b border-gray-700 shadow-lg fixed top-0 left-0 w-full z-50"
+      id="header"
+    >
       <div className="flex justify-between items-center px-6 py-4">
-        <h1 className="font-sans font-bold text-4xl text-wine-primary hover:text-wine-hover transition-colors cursor-pointer">
+        <Link
+          href="/"
+          className="font-sans font-bold text-4xl text-wine-primary hover:text-wine-hover transition-colors cursor-pointer"
+        >
           EWA
-        </h1>
+        </Link>
         <nav className="flex space-x-8 text-lg font-sans">
-          <span className="cursor-pointer text-foreground hover:text-wine-hover transition-colors duration-300 font-medium">
+          <Link
+            href="/"
+            className="cursor-pointer text-foreground hover:text-wine-hover transition-colors duration-300 font-medium"
+          >
             Home
-          </span>
-          <span className="cursor-pointer text-foreground hover:text-wine-hover transition-colors duration-300 font-medium">
-            FAQ
-          </span>
-          <span className="cursor-pointer text-foreground hover:text-wine-hover transition-colors duration-300 font-medium">
+          </Link>
+          <Link
+            href="/about"
+            className="cursor-pointer text-foreground hover:text-wine-hover transition-colors duration-300 font-medium"
+          >
+            About
+          </Link>
+          <Link
+            href="/products"
+            className="cursor-pointer text-foreground hover:text-wine-hover transition-colors duration-300 font-medium"
+          >
+            Products
+          </Link>
+          <span
+            onClick={scrollContact}
+            className="cursor-pointer text-foreground hover:text-wine-hover transition-colors duration-300 font-medium"
+          >
             Contact
-          </span>
-          <span className="cursor-pointer text-foreground hover:text-wine-hover transition-colors duration-300 font-medium">
-            Shop
           </span>
         </nav>
       </div>
