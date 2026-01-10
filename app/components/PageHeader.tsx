@@ -30,7 +30,7 @@ const PageHeader = () => {
           href="/"
           className="font-sans font-bold text-4xl text-wine-primary hover:text-wine-hover transition-colors cursor-pointer"
         >
-          EWA
+          EWÀ
         </Link>
         <div className="hidden sm:block">
           <nav className="flex space-x-8 text-lg font-sans">

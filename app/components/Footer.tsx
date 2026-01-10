@@ -12,7 +12,7 @@ const Footer = () => {
               href="/"
               className="font-sans font-bold text-3xl text-wine-primary hover:text-wine-hover transition-colors cursor-pointer mb-4"
             >
-              EWA
+              EWÀ
             </Link>
 
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">

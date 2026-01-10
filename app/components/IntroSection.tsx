@@ -29,7 +29,8 @@ const IntroSection = () => {
           <div className="text-center text-white px-6 max-w-4xl">
             {/* Main Heading */}
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight">
-              Beauty for your <span className="text-amber-300">crown</span>
+              Embrace your natural{" "}
+              <span className="text-amber-300">beauty</span>
             </h1>
 
             {/* Description */}
@@ -45,7 +46,7 @@ const IntroSection = () => {
               onClick={scrollProducts}
               className="bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-700 hover:to-amber-600 text-white font-bold py-4 px-8 md:py-5 md:px-12 rounded-full text-lg md:text-xl shadow-2xl transform hover:scale-105 transition-all duration-300 ease-out hover:shadow-amber-500/30"
             >
-              Shop EWA
+              Shop EWÀ
             </button>
           </div>
         </div>
