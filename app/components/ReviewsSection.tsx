@@ -4,14 +4,11 @@ import reviews from "../data/reviews.json";
 import Image from "next/image";
 import Link from "next/link";
 
-function ReviewsSection() {
+const ReviewsSection =  () => {
   const featuredReviewer = reviews[0];
 
   return (
-    <section
-      className="overflow-hidden my-10"
-      id="reviews"
-    >
+    <section className="overflow-hidden my-10 px-4 md:px-6" id="reviews">
       <div className="max-w-8xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12">
@@ -20,7 +17,7 @@ function ReviewsSection() {
           </h2>
           <div className="w-68 h-1 bg-gradient-to-r from-wine-primary to-cocoa-primary rounded-full mx-auto mt-2 mb-6"></div>
           <p className="text-base text-gray-300 max-w-2xl mx-auto">
-            Real transformations from our customers using EWA herbal scalp oil.
+            Real transformations from our customers using EWÀ herbal scalp oil.
           </p>
         </div>
 
@@ -72,7 +69,7 @@ function ReviewsSection() {
             {/* View More Link */}
             <Link
               href="/reviews"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-wine-primary to-cocoa-primary hover:from-wine-hover hover:to-cocoa-hover text-white font-semibold py-3 px-6 rounded-full transition-all duration-300 ease-out hover:scale-105 transform hover:shadow-lg"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-wine-primary to-cocoa-primary hover:from-wine-hover hover:to-cocoa-hover text-white font-semibold py-4 px-6 rounded-full transition-all duration-300 ease-out hover:scale-105 transform hover:shadow-lg"
             >
               <span>View More Reviews</span>
               <svg
